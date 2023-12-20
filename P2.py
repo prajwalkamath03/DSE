@@ -19,7 +19,23 @@ print("Minimum value of array a:",np.min(a))
 print("Minimum value of array b:",np.min(b))
 print("Mean of array a:",np.mean(a))
 print("Standard deviation of array a:",np.std(a))
+print("Sum of all the elements in array a:",np.sum(a))
 
+
+#Reshaping arrays
+c=np.array([[1,2],[3,4],[5,6]])
+print("Array c:")
+print(c)
+print("reshaped array c(2 rows,3 coloumns):")
+print(np.reshape(c,(2,3)))
+
+
+#Transposing arrays
+d=np.array([[1,2,3],[4,5,6]])
+print("Array d:")
+print(d)
+print("Transposed array d:")
+print(np.transpose(d))
 
 
 # OUTPUT:
@@ -35,3 +51,18 @@ print("Standard deviation of array a:",np.std(a))
 # Minimum value of array b: 6
 # Mean of array a: 3.0
 # Standard deviation of array a: 1.4142135623730951
+# Sum of all the elements in array a: 15
+# Array c:
+# [[1 2]
+#  [3 4]
+#  [5 6]]
+# reshaped array c(2 rows,3 coloumns):
+# [[1 2 3]
+#  [4 5 6]]
+# Array d:
+# [[1 2 3]
+#  [4 5 6]]
+# Transposed array d:
+# [[1 4]
+#  [2 5]
+#  [3 6]]
